@@ -11,7 +11,7 @@ function retornaNotasDosAlunos (alunosENotas) {
     for (let i = 0; i < alunosENotas.length; i++) {
         const aluno = alunosENotas[i];
         
-        if (aluno.nota <= 6) {
+        if (aluno.nota >= 6) {
             console.log(`O aluno: ${aluno.nome} tirou ${aluno.nota} e passou.`)
         } else {
             console.log(`O aluno ${aluno.nome} tirou ${aluno.nota} e não passou.`)
