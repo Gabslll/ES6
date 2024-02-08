@@ -19,4 +19,4 @@ function retornaNotasDosAlunos (alunosENotas) {
     }
 }
 
-retornaNotaAlunos(alunosENotas);
+retornaNotasDosAlunos(alunosENotas);
